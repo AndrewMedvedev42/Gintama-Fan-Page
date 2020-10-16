@@ -1,0 +1,267 @@
+body{
+    margin:0;
+    background-image: url(img/crisp-paper-ruffles.png);
+    
+    font-family: Copperplate;
+
+
+}
+
+header{
+    background: rgb(150, 75, 75) ;
+    padding: 3px;
+
+    
+}
+
+.divlog{
+    margin: 0;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.navcont{
+    width: 80%;
+    display: flex;;
+    align-content: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.hednav{
+    display: flex;
+    margin: 20px 0;
+    width: 50%;
+}
+
+
+.hednav h2{
+    margin: 40px 20px;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+  
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+a:hover{
+    border-bottom: 5px solid black;
+}
+
+.contn2{
+
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.bann{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.title{
+    border: none;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h1{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 5px solid black;
+
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: Futura;
+    font-weight: lighter;
+}
+
+.maindesc{
+    color: rgb(97, 97, 97);
+    text-align: center;
+}
+
+.container{
+  
+    margin: 0 auto;
+    padding: 70px 10px 70px 20px;
+}
+
+.contn{
+
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contn1{
+
+    padding:20px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Sorachi-info{
+    text-align: center;
+    margin: 20px;
+    width: 211px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(187, 187, 187);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+}
+
+.AboutSor{
+    font-size: 1.5em;
+}
+
+.article{
+    justify-content: space-between;
+    width:60%;
+    background: rgb(145, 145, 255);
+    padding: 0px 20px;
+    border-radius: 25px;
+    color: white;
+}
+
+.image{
+    border-radius: 25px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 5px 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style the tab */
+.tab {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    padding: 0 px;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    
+    min-width: 450px;;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.5s;
+    color: rgb(97, 97, 97);
+   
+
+  }
+  
+  .tablinks{
+    font-size: 2rem;
+    font-family: Copperplate;
+    padding: 10px 40px;
+    width: 100%;
+    
+}
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+    
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+      border-radius: 25px;
+      color: white;
+    background-color:  rgb(145, 145, 255);
+  }
+  
+.Yoroz{
+    margin: 20px;
+    display: flex;
+}
+
+
+  /* Style the tab content */
+  .tabcontent {
+    display:none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+
+
+
+
+.characprof{
+    text-align: center;
+    margin: 20px;
+    width: 32%;
+    
+}
+
+.profimg{
+   
+    border-radius: 25px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding: 10px 20px;
+    background: black;
+    color: rgb(255, 255, 129);
+    
+    
+}
+
+.fot{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fot p{
+    font-family: Copperplate;
+}
