@@ -8,50 +8,41 @@
     <link rel="stylesheet" href="gin.css">
 </head>
 <body>
-    <header>
-        <nav class="headers">
-            <div class=navcont>
-                <div class="divlog">
-                     <img src="img/ginlogo.png" alt="ggg"  class="logo">
+    <header class="headerNavigation">
+                <img src="img/ginlogo.png" alt="ggg"  class="logoImage">
+                <div class="navigationLinks">
+                    <h2><a class = "link-one" href="#About">About</a></h2>
+                    <h2><a class = "link-one" href="#Manga">Manga</a></h2>
+                    <h2><a class = "link-one" href="#Anime">Anime</a></h2>
+                    <h2><a class = "link-one" href="#Story">Story</a></h2>
+                    <h2><a class = "link-one" href="#Characters">Characters</a></h2>
                 </div>
-                <div class="hednav">
-                    <h2 class = "nav"><a class = "link-one" href="#About">About</a></h2>
-                    <h2 class = "nav"><a class = "link-one" href="#Manga">Manga</a></h2>
-                    <h2 class = "nav"><a class = "link-one" href="#Anime">Anime</a></h2>
-                    <h2 class = "nav"><a class = "link-one" href="#Story">Story</a></h2>
-                    <h2 class = "nav"><a class = "link-one" href="#Characters">Characters</a></h2>
-                </div>
-             </div>
-        </nav>
     </header>
     <main>
 <!---------------------------------------------------------------------------------------------------------------->  
         
-<div class="contn2">
-        <h1 class="title">Gintama</h1>
-        <img src="img/Banner.png" alt="" class="bann">
+    <div class="bannerContainer">
+            <h1 class="title">Gintama</h1>
+            <img src="img/Banner.png" alt="" class="bannerImage">
     </div>
 
-        <div class="container" id="About">     
-            <h1 >About</h1>
-            <div class="maindesc">
-                <p>Gintama ("Silver Soul") is a Japanese manga written and illustrated by Hideaki Sorachi.</p>
-            </div> 
-
-            <div class="contn">
-                <div class="Sorachi-info">
-                    <div>
-                        <img src="img/sorachi.png" alt="">
-                    </div>  
-                        <p class="AboutSor">Sorachi often illustrating himself as a gorilla</p>
-                </div>
-                    <div class="article">
-                        <p>Hideaki Sorachi's main focus in Gintama is the use of gags; during the manga's second year of serialization, he started to add more drama to the story while still keeping the comedy.</p>
-                        <p> Various jokes from the manga are comments regarding cliches from other shonen series.</p>
-                        <p> Other types of comedic situations are more general so that the reader must know about Japanese culture to understand them.</p>
-                    </div>
+    <div class="container" id="About">     
+        <h1 >About</h1>
+        <div class="maindesc">
+            <p>Gintama ("Silver Soul") is a Japanese manga written and illustrated by Hideaki Sorachi.</p>
+        </div> 
+        <div class="contn">
+            <div class="Sorachi-info">
+                <img src="img/sorachi.png" alt="">
+                <p class="AboutSor">Sorachi often illustrating himself as a gorilla</p>
             </div>
+                <article class="article">
+                    <p>Hideaki Sorachi's main focus in Gintama is the use of gags; during the manga's second year of serialization, he started to add more drama to the story while still keeping the comedy.</p>
+                    <p> Various jokes from the manga are comments regarding cliches from other shonen series.</p>
+                    <p> Other types of comedic situations are more general so that the reader must know about Japanese culture to understand them.</p>
+                </article>
         </div>
+    </div>
 <!----------------------------------------------------------------------------------------------------------------> 
     <div class="container" id="Manga">
         <h1 >Manga</h1>
@@ -76,7 +67,7 @@
             <div class="article">
                 <p>An anime adaptation by Sunrise debuted on TV Tokyo on April 4, 2006.</p>
                 <p>The second season was released over another set of thirteen volumes between July 25, 2007 and July 23, 2008.</p>
-                <p>In November 2008, an agreement was reached between TV Tokyo and the streaming video service Crunchyroll.</p>
+                <p>The Final movie, composing of the finale is going to air January 8, 2021</p>
             </div>
         </div>
     </div>
@@ -95,7 +86,6 @@
     <div class="container" id="Characters">
         <h1 >Characters</h1>
         <div class="contn1">
-            <!-- Tab links -->
             <div class="tab">
                 <div><button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Yorozuya</button></div>   
                 <div><button class="tablinks" onclick="openCity(event, 'Paris')">Shinsengumi</button></div>   

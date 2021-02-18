@@ -1,73 +1,49 @@
 body{
     margin:0;
     background-image: url(img/crisp-paper-ruffles.png);
-    
     font-family: Copperplate;
-
-
 }
 
-header{
+.headerNavigation{
     background: rgb(150, 75, 75) ;
-    padding: 3px;
-
-    
-}
-
-.divlog{
-    margin: 0;
-}
-
-.logo{
-    width: 100px;
-    height: auto;
-    margin: 10px;
-}
-
-.navcont{
-    width: 80%;
     display: flex;;
-    align-content: flex-start;
-    margin-top: 10px;
-    margin-left: 10px;
+    align-items: center;
 }
 
-.hednav{
+.logoImage{
+    width: 80px;
+    height: auto;
+    margin: 10px 10px 10px 20px;
+}
+
+.navigationLinks{
+    margin: 10px;
+    width: 100%;
     display: flex;
-    margin: 20px 0;
-    width: 50%;
+    flex-wrap: wrap;
+    justify-content: start;
 }
 
-
-.hednav h2{
-    margin: 40px 20px;
- 
-}
-
-a{
+.link-one{
     text-decoration: none;
     color: white;
-  
-  background-size: 0 5px, auto;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  transition: all .2s ease-out;
+    transition: 0.2s;
+    margin: 10px 20px;
 }
 
-a:hover{
-    border-bottom: 5px solid black;
+.link-one:hover{
+    border-bottom: 5px solid rgb(255, 255, 255);
 }
 
-.contn2{
-
+.bannerContainer{
     width: 80%;
     margin: 0 auto;
     padding-top: 40px;
 }
 
-.bann{
+.bannerImage{
     width: 100%;
-    border-radius: 25px;
+    border-radius: 35px;
 }
 
 .title{
@@ -80,7 +56,6 @@ h1{
     width: 90%;
     margin: 0 auto;
     border-bottom: 5px solid black;
-
 }
 
 p{
@@ -95,13 +70,11 @@ p{
 }
 
 .container{
-  
     margin: 0 auto;
-    padding: 70px 10px 70px 20px;
+    padding: 70px 5px 70px 5px;
 }
 
 .contn{
-
     padding-top: 20px;
     width: 80%;
     margin: 0 auto;
@@ -111,19 +84,17 @@ p{
 }
 
 .contn1{
-
     padding:20px 0;
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .Sorachi-info{
     text-align: center;
     margin: 20px;
     width: 211px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding:20px 20px 0 20px;
     background: rgb(187, 187, 187);
     border-radius: 25px;
     box-shadow: 5px 5px 10px;
@@ -135,7 +106,7 @@ p{
 
 .article{
     justify-content: space-between;
-    width:60%;
+    width:70%;
     background: rgb(145, 145, 255);
     padding: 0px 20px;
     border-radius: 25px;
@@ -150,15 +121,6 @@ p{
 }
 
 
-
-
-
-
-
-
-
-
-/* Style the tab */
 .tab {
     display: flex;
     justify-content: space-between;
@@ -184,44 +146,35 @@ p{
 
   }
   
-  .tablinks{
+.tablinks{
     font-size: 2rem;
     font-family: Copperplate;
     padding: 10px 40px;
     width: 100%;
-    
 }
 
-  /* Change background color of buttons on hover */
-  .tab button:hover {
+.tab button:hover {
     background-color: #ddd;
     border-radius: 25px;
-    
-  }
+}
   
   /* Create an active/current tablink class */
-  .tab button.active {
+.tab button.active {
       border-radius: 25px;
       color: white;
     background-color:  rgb(145, 145, 255);
-  }
+}
   
 .Yoroz{
     margin: 20px;
     display: flex;
 }
 
-
-  /* Style the tab content */
-  .tabcontent {
+.tabcontent {
     display:none;
     padding: 6px 12px;
     border-top: none;
   }
-
-
-
-
 
 .characprof{
     text-align: center;
@@ -236,32 +189,23 @@ p{
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     padding: 10px 20px;
     background: black;
     color: rgb(255, 255, 129);
-    
-    
+    margin: 0 auto;
 }
 
 .fot{
     width: 80%;
-    margin: 0 auto;
-}
-
-.fot p{
+    margin: 20px;
     font-family: Copperplate;
 }
+
+@media screen and (max-width: 1000px) {
+    .contn{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
