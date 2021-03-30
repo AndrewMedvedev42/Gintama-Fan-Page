@@ -137,7 +137,7 @@ p{
     overflow: hidden;
     border-radius: 25px;
     background-color: #f1f1f1;
-    min-width: 450px;;
+    min-width: 200px;;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -175,6 +175,7 @@ p{
 .Yoroz{
     margin: 20px;
     display: flex;
+
 }
 
 .tabcontent {
@@ -247,5 +248,17 @@ footer{
         height: auto;
         margin: 0 auto;
     }
-    
+
+    .tablinks{
+        font-size: 1.5rem;
+    }
+
+    .Yoroz{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .characprof{
+        width: 75%;
+    }
   }
