@@ -94,7 +94,7 @@ p{
 
 .contn1{
     /* padding:px 0; */
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     
 }
@@ -138,7 +138,7 @@ p{
     padding: 0 px;
     overflow: hidden;
     border-radius: 25px;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     min-width: 200px;;
   }
   
@@ -211,6 +211,14 @@ footer{
 
 }
 
+.quote{
+    font-size: 1.5rem;
+}
+
+.author{
+    font-size: 1.2rem;
+}
+
 #myBtn {
     display: none;
     position: fixed;
@@ -262,5 +270,8 @@ footer{
 
     .characprof{
         width: 75%;
+    }
+    .navigationLinks{
+        justify-content: center;
     }
   }
